@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-07-14T10:32:37Z" name="Default suite" finished-at="2018-07-14T10:32:46Z" duration-ms="9410">
+    <groups>
+    </groups>
+    <test started-at="2018-07-14T10:32:37Z" name="Default test" finished-at="2018-07-14T10:32:46Z" duration-ms="9410">
+      <class name="maven_package.maven_project.Registration_calling">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:maven_package.maven_project.Registration_calling@2555fff0]" started-at="2018-07-14T10:32:37Z" name="beforeMethod" finished-at="2018-07-14T10:32:37Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void maven_package.maven_project.Registration_calling.user_reg() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="user_reg()[pri:0, instance:maven_package.maven_project.Registration_calling@2555fff0]" started-at="2018-07-14T10:32:37Z" name="user_reg" finished-at="2018-07-14T10:32:46Z" duration-ms="9215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_reg -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:maven_package.maven_project.Registration_calling@2555fff0]" started-at="2018-07-14T10:32:46Z" name="afterMethod" finished-at="2018-07-14T10:32:46Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=user_reg status=SUCCESS method=Registration_calling.user_reg()[pri:0, instance:maven_package.maven_project.Registration_calling@2555fff0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:maven_package.maven_project.Registration_calling@2555fff0]" started-at="2018-07-14T10:32:46Z" name="endTest" finished-at="2018-07-14T10:32:46Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- maven_package.maven_project.Registration_calling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
